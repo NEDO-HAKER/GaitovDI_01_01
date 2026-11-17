@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">GaitovDI_01_01</string>
+    <string name="labell">Конвертер единиц информации</string>
+    <string name="start">Начать</string>
+    <string name="from">Из</string>
+    <string name="hint1">Байт</string>
+    <string name="to">В</string>
+    <string name="hint2">Килобайт</string>
+    <string name="rez">Результат</string>
+    <string name="show">Вычислить</string>
+    <string name="input">Введите число</string>
+</resources>

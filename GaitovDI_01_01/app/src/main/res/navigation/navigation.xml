@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation"
+    app:startDestination="@id/logInFragment">
+
+    <fragment
+        android:id="@+id/logInFragment"
+        android:name="com.example.gaitovdi_01_01.Log_in"
+        android:label="Первый экран"
+        tools:layout="@layout/log_in">
+
+        <action
+            android:id="@+id/action_logInFragment_to_mainScreenFragment"
+            app:destination="@id/mainScreenFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/mainScreenFragment"
+        android:name="com.example.gaitovdi_01_01.Main_screen"
+        android:label="Второй экран"
+        tools:layout="@layout/main_screen" />
+
+</navigation>
